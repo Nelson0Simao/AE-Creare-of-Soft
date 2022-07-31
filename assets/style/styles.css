@@ -1,0 +1,47 @@
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f3f3;
+  font-family: 'Poppins', sans-serif;
+  color: #363636;
+}
+
+/* Global style to link */
+a{
+    text-decoration: none;
+}
+/* Size img */
+#logoPricial{
+    width:80px;
+    height: 80px;
+}
+.true-icon{
+  width: 20px;
+  height: 20px;
+  margin: .5rem;
+}
+.grid-icon-col{
+  width: 70px;
+  height: 70px; 
+}
+.grid-icon-animate{
+    width:60px;
+    height: 50px;
+}
+.text-p-1{
+  margin-top: 1rem;
+}
+section{
+  padding-top: 2rem;
+}
+#Perfile-identity{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-burger{
+  display: none;
+}
+@media (max-width:370px){
+  
+}

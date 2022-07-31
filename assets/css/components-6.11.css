@@ -1,0 +1,178 @@
+.youtube {
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer
+}
+.youtube img {
+    width: 100%;
+    left: 0;
+    opacity: .9
+}
+.youtube .play-button {
+    width: 68px;
+    height: 48px;
+    background-color: #333;
+    opacity: .9;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .6);
+    z-index: 1;
+    border-radius: 1.2em / 1em
+}
+.youtube .play-button:before {
+    content: "";
+    border-style: solid;
+    border-width: 10px 0 10px 18px;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #fff
+}
+.youtube:hover .play-button {
+    background-color: #e62e2d
+}
+.youtube img,
+.youtube .play-button {
+    cursor: pointer
+}
+.youtube img,
+.youtube iframe,
+.youtube .play-button,
+.youtube .play-button:before {
+    position: absolute
+}
+.youtube .play-button,
+.youtube .play-button:before {
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0)
+}
+.youtube iframe {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0
+}
+a.disable-link {
+    pointer-events: none
+}
+.div-tst {
+    flex-direction: column;
+    margin-top: 17px;
+    display: flex
+}
+.div-tst.news-letter-ld-bx {
+    padding: 30px 26px 22px;
+    margin-top: 0
+}
+.div-tst-li {
+    background: linear-gradient(to right, #fff, #efefef, #efefef, #efefef, #efefef, #fff);
+    background-size: 200%;
+    animation: gradient 1.15s linear infinite;
+    height: 37px;
+    display: block;
+    margin-bottom: 13px;
+    border-radius: 6px
+}
+.news-letter-ld-bx .div-tst-li {
+    height: 50px;
+    margin-top: 12px
+}
+.news-letter-ld-bx .div-tst-li:last-child {
+    height: 58px
+}
+.div-tst-li:last-child {
+    height: 58px;
+    margin-bottom: 0;
+    margin-top: 18px
+}
+.div-tst-li:last-child.news-letter-ld {
+    margin-top: 14px
+}
+@keyframes gradient {
+    0% {
+        background-position-x: 0
+    }
+    100% {
+        background-position-x: -200%
+    }
+}
+.form-demonstration.form-banners .test-box__form {
+    margin: 40px 0 24px
+}
+.form-demonstration.form-banners {
+    position: relative;
+    width: 100%
+}
+.form-banners .container-test .container-test__box .test-box__form {
+    width: 100%
+}
+.form-banners .text-standard {
+    color: #072e5e
+}
+.container-test .container-test__box .form-banners .test-box__form {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0;
+    border-radius: 12px !important
+}
+.title-box {
+    background-color: #f0fa00;
+    padding: 16px 32px
+}
+.form-banners .form-content {
+    background-color: #fff;
+    padding: 22px 32px
+}
+.form-banners .test-box__form {
+    box-shadow: -5px 5px 20px rgba(0, 0, 0, .63)
+}
+.form-demonstration.form-banners .test-box__form .title-content {
+    font-size: 2.5em !important;
+    margin: 0 !important;
+    color: #072e5e
+}
+.form-demonstration.form-banners .test-box__form .text-standard {
+    font-size: 1.4em !important;
+    margin: 13px 0 0 !important
+}
+.form-demonstration.form-banners .test-box__form form div {
+    margin-bottom: 15px !important
+}
+.form-demonstration.form-banners .test-box__form form div label {
+    font-size: 13px !important
+}
+.form-demonstration.form-banners .test-box__form form div input,
+.form-demonstration.form-banners .test-box__form form div select {
+    height: 34px !important;
+    border-radius: 6px !important
+}
+.form-demonstration.form-banners .test-box__form form button {
+    transition: all 0.3s !important;
+    min-width: 100% !important;
+    margin-top: 20px !important;
+    height: 45px !important;
+    font-size: 1.6em !important;
+    border-style: solid !important;
+    border-color: #072e5e !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: #072e5e !important
+}
+.form-demonstration.form-banners .test-box__form form button:hover {
+    background-color: #072e5e !important;
+    color: #fff !important
+}
+@media only screen and(min-width: 770px) {
+    .form-demonstration.form-banners {
+        position: relative;
+        width: 40%
+    }
+    .container-test .container-test__box .form-banners .test-box__form {
+        position: relative;
+        width: 100%
+    }
+}
+@media only screen and(min-width: 1260px) {
+    .form-demonstration.form-banners {
+        position: relative;
+        width: 35%
+    }
+    .container-test.banner-nfe .container-test__box .test-box__form {
+        margin: 0
+    }
+} /*# sourceMappingURL=components.css.map */

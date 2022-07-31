@@ -1,0 +1,142 @@
+
+/* mobile css resposive web site */
+@media (max-width: 1188px){
+    .sec-left img{
+        margin-top: 50px;
+    }
+
+    .header .menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .menu-header-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-header-2 ul {
+        margin-bottom: .2rem;
+    }
+    .menu-header-2 ul {
+        margin-top: 1rem;
+    }
+    .menu-header-2 ul li{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    p{
+        text-align: center;
+    }
+    .section-2 h2{
+        text-align: center;
+    }
+
+}   
+@media(max-width:1003px){
+    #Perfile-identity{
+        display: none;
+    }
+    .menu-header-2{
+        display: flex;
+        flex-direction: row;
+    }
+    .btn.submit{
+        width: 100%;
+    }
+    .section-items-13 form ul {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}
+
+@media(max-width: 559px){
+    .content-el-1 a{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .btn-mobile{
+        width: 100%;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .btn.submit{
+        display: none;
+    }
+    .menu-burger{
+        display:block;
+        margin: 0 2rem;
+    }
+    .menu-header-3 li{
+        display: flex;
+        flex-direction: row;
+    }
+    h1{
+        font-size: 1rem;
+    }
+    h2{
+        font-size: .5rem;
+    }
+    p{
+        font-size: .5rem;
+    }
+    .section-items-5{
+        width: 100% !important;
+    }
+    .form-style{
+        width: 50% !important;
+        justify-content: center;
+        align-items: center;
+        margin-left: 18vw !important;
+    }
+    .form-style p {
+        display: none;
+    }
+    .form-style h3{
+        font-size: 1.2rem !important;
+        text-align: center;
+        font-weight: 400;
+        line-height: 10px;
+    }
+    .section-items-13 h2{
+        font-size: 1.2rem !important;
+    }
+    .submit-from-el{
+        font-size: .8rem !important;
+    }
+    .btn-sub{
+        font-size: .8rem !important;
+        padding: .5rem !important;
+    }
+    .md-b{
+        font-size: .8rem !important;
+    }
+}
+@media (max-width:751px){
+    #btn-call-center{
+        font-size: 14px;
+        font-weight: 400;
+        font-size: 22;
+        width: 100%;
+    }
+    .circulo{
+        display: none;
+    }
+    .section-info h1{
+        font-size:  2rem !important;
+    }
+    .section-info p{
+        font-size:  1rem !important;
+    }
+    .section-items-6 p{
+        font-size:  1rem !important;
+    }
+}

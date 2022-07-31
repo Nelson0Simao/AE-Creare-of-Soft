@@ -1,0 +1,16 @@
+/* Reset CSS and Normalize*/
+@import url('./reset.css');
+@import url('./normalize.css');
+@import url('./styles.css');
+
+@import url('./header.css');
+@import url('./section.css');
+@import url('./footer.css');
+
+/* call cliente */
+@import url('./callerCliente.css');
+@import url('./mobile.css');
+
+/* google font Popping */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
