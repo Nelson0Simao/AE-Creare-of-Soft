@@ -1,24 +1,4 @@
-function gtmInsert() {
-    var c,
-        d,
-        f,
-        a,
-        h,
-        g,
-        b;
-    c = window,
-    d = document,
-    f = "script",
-    h = "GTM-MJKFT4G",
-    c[a = "dataLayer"] = c[a] || [],
-    c[a].push({"gtm.start": new Date().getTime(), event: "gtm.js"}),
-    g = d.getElementsByTagName(f)[0],
-    b = d.createElement(f),
-    b.async = !0,
-    b.setAttribute("rel", "preconnect"),
-    b.src = "https://www.googletagmanager.com/gtm.js?id=" + h + ("dataLayer" != a ? "&l=" + a : ""),
-    g.parentNode.insertBefore(b, g)
-}
+
 var delayGTM = 0;
 function openDialog(f, g) {
     var a = document.getElementById(g);
