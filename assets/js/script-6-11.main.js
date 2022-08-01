@@ -1,10 +1,51 @@
-
+function gtmInsert() {
+    var c,
+        d,
+        f,
+        a,
+        h,
+        g,
+        b;
+    c = window,
+    d = document,
+    f = "script",
+    h = "GTM-MJKFT4G",
+    c[a = "dataLayer"] = c[a] || [],
+    c[a].push({"gtm.start": new Date().getTime(), event: "gtm.js"}),
+    g = d.getElementsByTagName(f)[0],
+    b = d.createElement(f),
+    b.async = !0,
+    b.setAttribute("rel", "preconnect"),
+    b.src = "https://www.googletagmanager.com/gtm.js?id=" + h + ("dataLayer" != a ? "&l=" + a : ""),
+    g.parentNode.insertBefore(b, g)
+}
+var delayGTM = 0;
+function openDialog(f, g) {
+    var a = document.getElementById(g);
+    let d = a.querySelectorAll(".close-dialog");
+    if ("true" === f) {
+        let b = document.createElement("div");
+        a.appendChild(b),
+        b.classList.add("modal"),
+        zIndexD = 12,
+        a.classList.add("open-dialog"),
+        a.style.zIndex = zIndexD ++,
+        b.style.display = "block";
+        for (let c = 0; c < d.length; c++) 
+            d[c].addEventListener("click", function () {
+                a.classList.remove("open-dialog"),
+                b.style.display = "none",
+                b.remove(b)
+            })
+        
+    }
+}
 function trengoOpen() {
     window.Trengo.Api.Widget.open("chat")
 }
 window.location.pathname.includes("obrigado") && (delayGTM = 0),
 setTimeout(function () {
-    
+   // gtmInsert()
 }, delayGTM);
 let imageGetSrc = document.querySelectorAll(".image-mobile-resolution");
 for (let e = 0; e < imageGetSrc.length; e++) 
