@@ -45,7 +45,7 @@ function trengoOpen() {
 }
 window.location.pathname.includes("obrigado") && (delayGTM = 0),
 setTimeout(function () {
-    gtmInsert()
+   // gtmInsert()
 }, delayGTM);
 let imageGetSrc = document.querySelectorAll(".image-mobile-resolution");
 for (let e = 0; e < imageGetSrc.length; e++) 
