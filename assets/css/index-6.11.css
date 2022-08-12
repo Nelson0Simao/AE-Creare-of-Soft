@@ -171,7 +171,7 @@
     display: block
 }
 
-.container-test.banner-header {
+.container-test{
     height: auto;
     max-height: none;
     padding: 75px 0 40px 0;
@@ -180,72 +180,72 @@
     width: 100%
 }
 
-.container-test.banner-header.bg-amarelo {
+.container-test.bg-amarelo {
     background: url(../../img/background/bg-amarelo.jpg);
 }
 
-.container-test.banner-header.bg-azul {
-    background: url(../images/bg-azul.jpg);
+.container-test.bg-azul {
+    background: url(../images/background/bg-azul.jpg);
 }
 
-.container-test.banner-header.bg-azul-2 {
+.container-test.bg-azul-2 {
     background: url(../../img/background/bg-azul-2.jpg);
 }
 
-.container-test.banner-header.bg-azul-3 {
+.container-test.bg-azul-3 {
     background: url(../../img/background/bg-azul-3.jpg);
 }
 
-.container-test.banner-header.bg-cinza {
+.container-test.bg-cinza {
     background: url(../../img/background/bg-cinza.jpg)
 }
 
-.container-test.banner-header.bg-laranja {
+.container-test.bg-laranja {
     background: url(../../img/background/bg-laranja.jpg)
 }
 
-.container-test.banner-header.bg-preto {
+.container-test.bg-preto {
     background: url(../../img/background/bg-preto.jpg)
 }
 
-.container-test.banner-header.bg-rosa {
+.container-test.bg-rosa {
     background: url(../../img/background/bg-rosa.jpg)
 }
 
-.container-test.banner-header.bg-roxo {
+.container-test.bg-roxo {
     background: url(../../img/background/bg-roxo.jpg)
 }
 
-.container-test.banner-header.bg-roxo-2 {
+.container-test.bg-roxo-2 {
     background: url(../../img/background/bg-roxo-2.jpg)
 }
 
-.container-test.banner-header.bg-verde {
+.container-test.bg-verde {
     background: url(../../img/background/bg-verde.jpg)
 }
 
-.container-test.banner-header.bg-verde-2 {
+.container-test.bg-verde-2 {
     background: url(../../img/background/bg-verde-2.jpg)
 }
 
-.container-test.banner-header.bg-verde-3 {
+.container-test.bg-verde-3 {
     background: url(../../img/background/bg-verde-3.jpg)
 }
 
-.container-test.banner-header.bg-vermelho {
+.container-test.bg-vermelho {
     background: url(../../img/background/bg-vermelho.jpg)
 }
 
-.container-test.banner-header .container-test__box .test-box__text h2 {
+.container-test .container-test__box .test-box__text h2 {
     text-align: center
 }
-
-.container-test.banner-header .container-test__box .test-box__text p {
+banner-header
+.container-test .container-test__box .test-box__text p {
     font-weight: bold;
     text-align: center
 }
 
-.container-test.banner-header .container-test__box .test-box__text span {
+.container-test .container-test__box .test-box__text span {
     color: #f0fa00
 }
 
@@ -347,20 +347,20 @@
     background-color: #f83371
 }
 
-.container-test.banner-header .container-test__box .test-box__text {
+.container-test .container-test__box .test-box__text {
     width: 100%
 }
 
-.container-test.banner-header .container-test__box .test-box__text h2 {
+.container-test .container-test__box .test-box__text h2 {
     text-align: center !important
 }
 
-.container-test.banner-header .container-test__box .test-box__text p {
+.container-test .container-test__box .test-box__text p {
     font-weight: bold;
     text-align: center !important
 }
 
-.container-test.banner-header .container-test__box .test-box__text a {
+.container-test .container-test__box .test-box__text a {
     margin: 32px auto 0 !important
 }
 
@@ -643,7 +643,7 @@
         padding: 120px 0 64px 0
     }
 
-    .container-test.banner-header .container-test__box .test-box__text h2 {
+    .container-test .container-test__box .test-box__text h2 {
         font-size: 3.2em !important
     }
 
@@ -716,22 +716,22 @@
 }
 
 @media only screen and (min-width: 1260px) {
-    .container-test.banner-header {
+    .container-test {
         background-size: cover !important;
         background-position-y: 28% !important;
         padding: 75px 0 24px 0
     }
 
-    .container-test.banner-header .container-test__box .test-box__text h2 {
+    .container-test .container-test__box .test-box__text h2 {
         text-align: left
     }
 
-    .container-test.banner-header .container-test__box .test-box__text p {
+    .container-test .container-test__box .test-box__text p {
         font-weight: bold;
         text-align: left
     }
 
-    .container-test.banner-header .container-test__box .test-box__text a {
+    .container-test .container-test__box .test-box__text a {
         margin: 32px 0 0
     }
 
@@ -753,12 +753,12 @@
         margin: 32px 0 0
     }
 
-    .container-test.banner-header {
+    .container-test {
         height: 95vh;
         max-height: 700px
     }
 
-    .container-test.banner-header .container-test__box .test-box__text {
+    .container-test .container-test__box .test-box__text {
         width: 50%
     }
 
@@ -7001,7 +7001,7 @@ html {
     display: block
 }
 
-.container-test.banner-header {
+.container-test {
     height: auto;
     max-height: none;
     padding: 75px 0 40px 0;
@@ -7010,72 +7010,72 @@ html {
     width: 100%
 }
 
-.container-test.banner-header.bg-amarelo {
+.container-test.bg-amarelo {
     background: url(../../img/background/bg-amarelo.jpg)
 }
 
-.container-test.banner-header.bg-azul {
+.container-test.bg-azul {
     background: url(../images/background/bg-azul.jpg)
 }
 
-.container-test.banner-header.bg-azul-2 {
+.container-test.bg-azul-2 {
     background: url(../../img/background/bg-azul-2.jpg)
 }
 
-.container-test.banner-header.bg-azul-3 {
+.container-test.bg-azul-3 {
     background: url(../../img/background/bg-azul-3.jpg)
 }
 
-.container-test.banner-header.bg-cinza {
+.container-test.bg-cinza {
     background: url(../../img/background/bg-cinza.jpg)
 }
 
-.container-test.banner-header.bg-laranja {
+.container-test.bg-laranja {
     background: url(../../img/background/bg-laranja.jpg)
 }
 
-.container-test.banner-header.bg-preto {
+.container-test.bg-preto {
     background: url(../../img/background/bg-preto.jpg)
 }
 
-.container-test.banner-header.bg-rosa {
+.container-test.bg-rosa {
     background: url(../../img/background/bg-rosa.jpg)
 }
 
-.container-test.banner-header.bg-roxo {
+.container-test.bg-roxo {
     background: url(../../img/background/bg-roxo.jpg)
 }
 
-.container-test.banner-header.bg-roxo-2 {
+.container-test.bg-roxo-2 {
     background: url(../../img/background/bg-roxo-2.jpg)
 }
 
-.container-test.banner-header.bg-verde {
+.container-test.bg-verde {
     background: url(../../img/background/bg-verde.jpg)
 }
 
-.container-test.banner-header.bg-verde-2 {
+.container-test.bg-verde-2 {
     background: url(../../img/background/bg-verde-2.jpg)
 }
 
-.container-test.banner-header.bg-verde-3 {
+.container-test.bg-verde-3 {
     background: url(../../img/background/bg-verde-3.jpg)
 }
 
-.container-test.banner-header.bg-vermelho {
+.container-test.bg-vermelho {
     background: url(../../img/background/bg-vermelho.jpg)
 }
 
-.container-test.banner-header .container-test__box .test-box__text h2 {
+.container-test .container-test__box .test-box__text h2 {
     text-align: center
 }
 
-.container-test.banner-header .container-test__box .test-box__text p {
+.container-test .container-test__box .test-box__text p {
     font-weight: bold;
     text-align: center
 }
 
-.container-test.banner-header .container-test__box .test-box__text span {
+.container-test .container-test__box .test-box__text span {
     color: #f0fa00
 }
 
@@ -7177,20 +7177,20 @@ html {
     background-color: #f83371
 }
 
-.container-test.banner-header .container-test__box .test-box__text {
+.container-test .container-test__box .test-box__text {
     width: 100%
 }
 
-.container-test.banner-header .container-test__box .test-box__text h2 {
+.container-test .container-test__box .test-box__text h2 {
     text-align: center !important
 }
 
-.container-test.banner-header .container-test__box .test-box__text p {
+.container-test .container-test__box .test-box__text p {
     font-weight: bold;
     text-align: center !important
 }
 
-.container-test.banner-header .container-test__box .test-box__text a {
+.container-test .container-test__box .test-box__text a {
     margin: 32px auto 0 !important
 }
 
@@ -7473,7 +7473,7 @@ html {
         padding: 120px 0 64px 0
     }
 
-    .container-test.banner-header .container-test__box .test-box__text h2 {
+    .container-test .container-test__box .test-box__text h2 {
         font-size: 3.2em !important
     }
 
@@ -7546,22 +7546,22 @@ html {
 }
 
 @media only screen and (min-width: 1260px) {
-    .container-test.banner-header {
+    .container-test {
         background-size: cover !important;
         background-position-y: 28% !important;
         padding: 75px 0 24px 0
     }
 
-    .container-test.banner-header .container-test__box .test-box__text h2 {
+    .container-test .container-test__box .test-box__text h2 {
         text-align: left
     }
 
-    .container-test.banner-header .container-test__box .test-box__text p {
+    .container-test .container-test__box .test-box__text p {
         font-weight: bold;
         text-align: left
     }
 
-    .container-test.banner-header .container-test__box .test-box__text a {
+    .container-test .container-test__box .test-box__text a {
         margin: 32px 0 0
     }
 
@@ -7583,12 +7583,12 @@ html {
         margin: 32px 0 0
     }
 
-    .container-test.banner-header {
+    .container-test {
         height: 95vh;
         max-height: 700px
     }
 
-    .container-test.banner-header .container-test__box .test-box__text {
+    .container-test .container-test__box .test-box__text {
         width: 50%
     }
 
@@ -14716,13 +14716,13 @@ a:hover {
     display: flex
 }
 
-.banner-header-soften4learning {
+-soften4learning {
     background: url(../../img/rdstation/soften4learning/background_learning.jpg) no-repeat !important;
     background-size: cover !important;
     position: relative
 }
 
-.banner-header-soften4learning::before {
+-soften4learning::before {
     content: "";
     background-color: rgba(0, 53, 123, .7294117647);
     position: absolute;
@@ -14732,20 +14732,20 @@ a:hover {
     top: 0
 }
 
-.banner-header-soften4learning .container-test__box.standard-size {
+-soften4learning .container-test__box.standard-size {
     max-width: 1280px !important
 }
 
-.banner-header-soften4learning .container-test__box .test-box__text {
+-soften4learning .container-test__box .test-box__text {
     z-index: 3
 }
 
-.banner-header-soften4learning .container-test__box .test-box__form {
+-soften4learning .container-test__box .test-box__form {
     align-items: center;
     z-index: 3
 }
 
-.banner-header-soften4learning .container-test__box .test-box__form img {
+-soften4learning .container-test__box .test-box__form img {
     height: max-content !important
 }
 
@@ -16210,13 +16210,13 @@ a:hover {
     display: flex
 }
 
-.banner-header-soften4learning {
+-soften4learning {
     background: url(../../img/rdstation/soften4learning/background_learning.jpg) no-repeat !important;
     background-size: cover !important;
     position: relative
 }
 
-.banner-header-soften4learning::before {
+-soften4learning::before {
     content: "";
     background-color: rgba(0, 53, 123, .7294117647);
     position: absolute;
@@ -16226,20 +16226,20 @@ a:hover {
     top: 0
 }
 
-.banner-header-soften4learning .container-test__box.standard-size {
+-soften4learning .container-test__box.standard-size {
     max-width: 1280px !important
 }
 
-.banner-header-soften4learning .container-test__box .test-box__text {
+-soften4learning .container-test__box .test-box__text {
     z-index: 3
 }
 
-.banner-header-soften4learning .container-test__box .test-box__form {
+-soften4learning .container-test__box .test-box__form {
     align-items: center;
     z-index: 3
 }
 
-.banner-header-soften4learning .container-test__box .test-box__form img {
+-soften4learning .container-test__box .test-box__form img {
     height: max-content !important
 }
 
